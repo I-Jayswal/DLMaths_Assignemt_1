@@ -18,5 +18,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-      - name: Run Python script
-        run: python my_script.py
+      - name: Run IshaJayswal.py
+        run: python IshaJayswal.py
+      - name: Run ex1_test.py
+        run: python ex1_test.py
